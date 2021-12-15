@@ -7,6 +7,7 @@ module.exports = {
       resolve: "gatsby-theme-landing-page",
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
+        host: process.env.CONTENTFUL_HOST,
         accessToken: process.env.CONTENTFUL_DELIVERY_ACCESS_TOKEN,
         environment: process.env.CONTENTFUL_ENVIRONMENT_ID || "master",
       },
